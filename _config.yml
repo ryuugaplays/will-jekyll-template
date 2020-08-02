@@ -13,6 +13,7 @@ twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
+profile_picture: https://raw.githubusercontent.com/ryuugaplays/space/master/RyuugaPlaysLogo250.png
 
 # Build settings
 markdown: kramdown
