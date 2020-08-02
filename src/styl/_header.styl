@@ -16,8 +16,31 @@ $bg
 	@extends $bg
 	h1,h2
 		color: sec
-		text-align center
-	
+		text-align center	
+		
+	.person
+		img
+			size(130, 130)
+			border-radius 100%
+	.recent
+		+below(320px)
+			&:last-child
+				display none
+		center(450px)
+			
+		p
+			text-align left
+			color white
+		a
+			text-decoration none
+			h2
+				text-align left
+				margin 0
+				font-weight 300
+				font-size rem(17px)
+				border-bottom 1px solid rgb(135, 116, 169)
+				&:hover
+					background rgba(135,116,169,0.42)
 	.site-title
 		font-size rem(60px)
 		line-height 1
@@ -25,11 +48,7 @@ $bg
 		display block
 		+above(cut)
 			margin-bottom 0
-			font-size rem(100px)
-	.person
-		img
-			size(130, 130)
-			border-radius 100%	
+			font-size rem(100px)	
 	.site-description
 		font-size rem(20px)
 		display block
